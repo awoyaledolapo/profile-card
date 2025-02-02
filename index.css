@@ -55,7 +55,7 @@ p{
 
 
 /****************** mediaquery************** */
-@media  (max-width: 350px){
+/* @media  (max-width: 350px){
     .profile-card{
         height: 42rem;
         width: 20rem;
@@ -98,4 +98,44 @@ p{
         width: 23rem;
         
     }
+}
+@media screen and (min-width: 820px) and (max-width: 1000px) {
+    .container{
+        padding: 10rem 2rem 0rem 2rem;
+        
+     }
+     .profile-card{
+        height: 42rem;
+        width: 23rem;
+    
+    }
+ h2{
+    color: red;
+ }
+} */
+@media  (max-width: 500px){
+    .profile-card{
+        height: 41rem;
+        width: 20rem;
+        padding: 9px;
+    }
+    .container{
+        padding: 0.8rem 2rem 0rem 2rem;
+     }
+     h2,h3{
+        margin: 6px;
+     }
+}
+@media screen and (min-width: 510px) and (max-width: 900px) {
+    .profile-card{
+        height: 41rem;
+        width: 20rem;
+        padding: 9px;
+    }
+    .container{
+        padding: 0.8rem 2rem 0rem 2rem;
+     }
+     h2,h3{
+        margin: 6px;
+     }
 }
